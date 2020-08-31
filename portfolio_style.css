@@ -7,7 +7,7 @@
 .intro {
 	position: relative;
 	min-height: 100vh;
-	background: url("background.jpeg");
+	background: url("background.jpg");
 	background-size: cover;
 	background-position: right;
 	display: flex;
