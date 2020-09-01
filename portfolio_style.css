@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	font-family: cursive;
 }
 
 .navbar {
@@ -69,6 +70,18 @@
 	background-image: linear-gradient(-45deg, #C1C3C3, #E9ECEC);
 }
 
+.projects h2 {
+	display: block;
+	padding-bottom: 10px;
+}
+.projects .card{
+	background-color: black;
+}
+
+.projects .card-text {
+	color: white;
+}
+
 .quote {
 	font-size: 50px;
 	text-align: center;
@@ -107,10 +120,6 @@
 	font-size: 50px;
 	font-weight: 500px;
 	padding: 10px;
-}
-
-.projects {
-	background: url("project.jpeg");
 }
 
 .card {
