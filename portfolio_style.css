@@ -5,6 +5,10 @@
 	scroll-behavior: smooth;
 }
 
+.navbar {
+	background-color: black;
+}
+
 .intro {
 	position: relative;
 	min-height: 100vh;
@@ -49,11 +53,7 @@
 	padding: 15px 15px;
 	align-items: center;
 	background-color: white;
-	background-image: linear-gradient(45deg, white, #DFE0F2) 
-}
-
-.about h2 {
-
+	background-image: linear-gradient(45deg, #E9ECEC, #C1C3C3); 
 }
 
 .content p {
@@ -64,12 +64,10 @@
 }
 
 .projects {
-	padding: 20px;
-
+	padding: 10px;
+	background-color: white;
+	background-image: linear-gradient(-45deg, #C1C3C3, #E9ECEC);
 }
-
-
-
 
 .quote {
 	font-size: 50px;
@@ -93,8 +91,6 @@
 	background-size: cover;
 	padding: 10px;
 }
-
-
 
 .content p {
 	width: 100%;
@@ -150,7 +146,6 @@
 	color: #e2e2e2;
 	box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2),
 				inset 2px 2px 5px rgba(0,0,0,0.2);
-
 	transition: 0.5s;
 }
 
